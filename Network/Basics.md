@@ -1,4 +1,34 @@
 # Networking Basics
+
+- [Networking Basics](#networking-basics)
+  - [Models](#models)
+    - [TCP/IP Model](#tcpip-model)
+    - [OSI Model](#osi-model)
+    - [Comparison](#comparison)
+  - [Network Access Layer](#network-access-layer)
+  - [Internet Protocol](#internet-protocol)
+    - [IPv4](#ipv4)
+      - [Header fields (20 bytes)](#header-fields-20-bytes)
+      - [Dynamic Host Configuration Protocol (DHCPv4)](#dynamic-host-configuration-protocol-dhcpv4)
+    - [IPv6](#ipv6)
+      - [Header fields (40 bytes)](#header-fields-40-bytes)
+    - [Network Address Translation (NAT)](#network-address-translation-nat)
+    - [Address Resolution Protocol (ARP) for IPv4 / Neighbor Discovery (ND) for IPv6](#address-resolution-protocol-arp-for-ipv4--neighbor-discovery-nd-for-ipv6)
+      - [ARP Spoofing / ARP Poisoning](#arp-spoofing--arp-poisoning)
+  - [Transport Layer protocols](#transport-layer-protocols)
+  - [Application Layer services](#application-layer-services)
+    - [Components of Uniform Resource Identifier (URI)](#components-of-uniform-resource-identifier-uri)
+    - [Domain Name System (port 53)](#domain-name-system-port-53)
+    - [HTTP 80 - HTTPS 443](#http-80---https-443)
+    - [FTP 21](#ftp-21)
+    - [Telnet 23, SSH 22](#telnet-23-ssh-22)
+    - [Email and messaging](#email-and-messaging)
+  - [Troubleshooting commands](#troubleshooting-commands)
+  - [Cloud and Virtualization](#cloud-and-virtualization)
+    - [Cloud Models](#cloud-models)
+    - [Cloud Services](#cloud-services)
+    - [Virtualization](#virtualization)
+
 ## Models
 ### TCP/IP Model
 - Application: represents data to the user, with encoding and dialog control
